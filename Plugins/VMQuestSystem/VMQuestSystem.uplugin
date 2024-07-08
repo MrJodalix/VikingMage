@@ -1,0 +1,45 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "VMQuestSystem",
+	"Description": "Ein Plugin zum Erstellen von Quests",
+	"Category": "Other",
+	"CreatedBy": "Jasper & Fritte",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "QuestAsset",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Linux",
+				"LinuxAArch64",
+				"Mac",
+				"Android",
+				"IOS",
+				"TVOS",
+				"XboxOne",
+				"Switch",
+				"PS4",
+				"HoloLens",
+				"Lumin"
+			]
+		},
+		{
+			"Name": "QuestAssetEditor",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [ "Win64", "Win32", "Linux", "LinuxAArch64", "Mac" ]
+		}
+	]
+}
